@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  height: calc(100% - 10rem);
+}
+
+.aside {
+  height: 100%;
+  width: 30%;
+  border-right: 2px solid black;
+  background-color: darkgray;
+}
+
+.content {
+  height: 100%;
+  width: 70%;
+}

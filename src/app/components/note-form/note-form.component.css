@@ -1,0 +1,36 @@
+.note-form {
+  padding: 1rem;
+}
+
+.note-form-title {
+  margin-bottom: 1rem;
+}
+
+.note-form-wrapper {
+  margin-bottom: 1rem;
+}
+
+.note-form-input {
+  height: 2rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  width: 20rem;
+  font-size: 1rem;
+}
+
+.form-btn {
+  margin-top: 3rem;
+  display: block;
+  width: 10rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  background-color: #fff;
+
+  &:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,18 @@
+<button
+  (click)="addNote()"
+  class="title-btn">
+  +
+</button>
+<div class="titles-wrapper">
+  <button
+    *ngFor="let noteTitle of shortNotes;"
+    (click)="goToNote(noteTitle.id)"
+    class="title-btn">
+    {{noteTitle.title}}
+  </button>
+  <p
+    *ngIf="!shortNotes.length"
+    class="titles-placeholder">
+    Нет данных для отображения
+  </p>
+</div>

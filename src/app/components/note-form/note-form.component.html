@@ -1,0 +1,36 @@
+<div class="note-form"
+     [formGroup]="noteForm"
+>
+  <h2 class="note-form-title">
+    Форма добавления заметки
+  </h2>
+  <div class="note-form-wrapper">
+    <h3>Заголовок</h3>
+    <div
+      class="note-form-input"
+    >
+      <input
+        class="form-input"
+        type="text"
+        formControlName="title"
+      >
+    </div>
+  </div>
+  <div class="note-form-wrapper">
+    <h3>Тело заметки</h3>
+    <div
+      class="note-form-input"
+    >
+      <textarea
+        class="form-input"
+        type="text"
+        formControlName="content"
+      ></textarea>
+    </div>
+  </div>
+  <button
+    (click)="addNote()"
+    class="form-btn">
+    +
+  </button>
+</div>

@@ -1,0 +1,20 @@
+<div class="content-note-wrapper">
+
+  <ng-container
+  *ngIf="note; else emptyNote;"
+  >
+    <h2 class="content-note-title">
+      {{note.title}}
+    </h2>
+    <p class="content-note-text">
+      {{note.content}}
+    </p>
+
+  </ng-container>
+
+  <ng-template
+  #emptyNote
+  >
+    Пустая заметка
+  </ng-template>
+</div>

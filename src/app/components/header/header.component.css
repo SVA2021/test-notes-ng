@@ -1,0 +1,9 @@
+.header {
+  border: 2px solid black;
+}
+
+.header-title {
+  padding: 1rem;
+  font-size: 2rem;
+  line-height: 4rem;
+}
